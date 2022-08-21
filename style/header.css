@@ -366,12 +366,12 @@ height: 100%;
 }
 /* bootstarp overwrite fix */
 .header-container .search-icon, .header-container .menu-icon {
-  line-height: 0px;
+  line-height: 0px !important;
 }
 label {
-    margin-bottom: .5rem;
+    margin-bottom: 0 !important;
 }
 ul.links {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 /* @prahlad dixit */
