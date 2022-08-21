@@ -168,9 +168,6 @@ input:focus:-ms-input-placeholder {
 .content .links ul li:hover ul{
   top: 0;
 }
-ul{
- margin-bottom: 0 !important;
-}
 /* Responsive code start */
 @media screen and (max-width: 1250px){
   .header-container nav{
@@ -367,5 +364,7 @@ color: #f5f5f5 !important;
 border-right: 1px solid grey;
 height: 100%;
 }
-
+ul.links {
+    margin-bottom: 0;
+}
 /* @prahlad dixit */
