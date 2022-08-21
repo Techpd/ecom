@@ -169,7 +169,7 @@ input:focus:-ms-input-placeholder {
   top: 0;
 }
 ul{
- margin-bottom: 0;
+ margin-bottom: 0 !important;
 }
 /* Responsive code start */
 @media screen and (max-width: 1250px){
